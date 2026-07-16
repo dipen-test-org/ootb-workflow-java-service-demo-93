@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ootb-workflow-java-service-demo-93
+  description: This repo is used to store yaml for OOTB workflows, along with yaml for the underlying pipeline and also used for versioning them as well.
+  annotations:
+    backstage.io/source-location: url:https://github.com/dipen-test-org/ootb-workflow-java-service-demo-93
+    harness.io/cd-serviceId: ootb-workflow-java-service-demo-93
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:account/_account_all_users
